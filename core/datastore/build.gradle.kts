@@ -37,7 +37,7 @@ dependencies {
     api(projects.core.datastoreProto)
     api(projects.core.model)
 
-    implementation(projects.core.common)
+    implementation(libs.hiltcoroutines)
 
     testImplementation(projects.core.datastoreTest)
     testImplementation(libs.kotlinx.coroutines.test)
