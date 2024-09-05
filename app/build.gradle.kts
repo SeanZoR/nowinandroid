@@ -79,7 +79,7 @@ dependencies {
     implementation(projects.feature.search)
     implementation(projects.feature.settings)
 
-    implementation(projects.core.common)
+    implementation(libs.hiltcoroutines)
     implementation(projects.core.ui)
     implementation(projects.core.designsystem)
     implementation(projects.core.data)
@@ -103,6 +103,7 @@ dependencies {
     implementation(libs.androidx.window.core)
     implementation(libs.kotlinx.coroutines.guava)
     implementation(libs.coil.kt)
+//    implementation(libs.hiltcoroutine)
 
     ksp(libs.hilt.compiler)
 

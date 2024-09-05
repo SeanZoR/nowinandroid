@@ -16,10 +16,10 @@
 
 package com.google.samples.apps.nowinandroid.core.testing.di
 
-import com.google.samples.apps.nowinandroid.core.network.Dispatcher
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.Default
-import com.google.samples.apps.nowinandroid.core.network.NiaDispatchers.IO
-import com.google.samples.apps.nowinandroid.core.network.di.DispatchersModule
+import com.sean8.hiltcoroutines.Dispatcher
+import com.sean8.hiltcoroutines.AppDispatchers.Default
+import com.sean8.hiltcoroutines.AppDispatchers.IO
+import com.sean8.hiltcoroutines.di.DispatchersModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent
