@@ -26,7 +26,6 @@ android {
 
 dependencies {
     implementation(projects.core.data)
-    implementation(projects.core.common)
 
     testImplementation(projects.core.testing)
 
