@@ -40,7 +40,7 @@ secrets {
 
 dependencies {
     api(libs.kotlinx.datetime)
-    api(libs.hiltcoroutines)
+    api(libs.hilt.coroutines)
     api(projects.core.model)
 
     implementation(libs.coil.kt)

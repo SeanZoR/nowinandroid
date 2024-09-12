@@ -23,9 +23,9 @@ import androidx.datastore.dataStoreFile
 import com.google.samples.apps.nowinandroid.core.datastore.IntToStringIdsMigration
 import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
 import com.google.samples.apps.nowinandroid.core.datastore.UserPreferencesSerializer
-import com.sean8.hiltcoroutines.AppDispatchers.IO
-import com.sean8.hiltcoroutines.Dispatcher
-import com.sean8.hiltcoroutines.di.ApplicationScope
+import com.sean8.core.hiltcoroutines.AppDispatchers.IO
+import com.sean8.core.hiltcoroutines.Dispatcher
+import com.sean8.core.hiltcoroutines.di.ApplicationScope
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -23,9 +23,9 @@ import android.content.IntentFilter
 import android.os.Build.VERSION
 import android.os.Build.VERSION_CODES
 import androidx.tracing.trace
-import com.sean8.hiltcoroutines.Dispatcher
-import com.sean8.hiltcoroutines.AppDispatchers.IO
-import com.sean8.hiltcoroutines.di.ApplicationScope
+import com.sean8.core.hiltcoroutines.Dispatcher
+import com.sean8.core.hiltcoroutines.AppDispatchers.IO
+import com.sean8.core.hiltcoroutines.di.ApplicationScope
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope

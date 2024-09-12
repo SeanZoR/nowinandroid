@@ -21,8 +21,8 @@ import com.google.samples.apps.nowinandroid.core.network.NiaNetworkDataSource
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkChangeList
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkNewsResource
 import com.google.samples.apps.nowinandroid.core.network.model.NetworkTopic
-import com.sean8.hiltcoroutines.Dispatcher
-import com.sean8.hiltcoroutines.AppDispatchers.IO
+import com.sean8.core.hiltcoroutines.Dispatcher
+import com.sean8.core.hiltcoroutines.AppDispatchers.IO
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.ExperimentalSerializationApi

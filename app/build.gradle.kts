@@ -79,7 +79,7 @@ dependencies {
     implementation(projects.feature.search)
     implementation(projects.feature.settings)
 
-    implementation(libs.hiltcoroutines)
+    implementation(libs.hilt.coroutines)
     implementation(projects.core.ui)
     implementation(projects.core.designsystem)
     implementation(projects.core.data)

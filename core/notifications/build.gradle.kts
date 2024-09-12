@@ -25,7 +25,7 @@ android {
 dependencies {
     api(projects.core.model)
 
-    implementation(libs.hiltcoroutines)
+    implementation(libs.hilt.coroutines)
 
     compileOnly(platform(libs.androidx.compose.bom))
 }

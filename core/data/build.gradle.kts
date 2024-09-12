@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-    api(libs.hiltcoroutines)
+    api(libs.hilt.coroutines)
 
     api(projects.core.database)
     api(projects.core.datastore)

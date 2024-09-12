@@ -25,7 +25,7 @@ android {
 dependencies {
     api(libs.kotlinx.coroutines.test)
     api(projects.core.analytics)
-    api(libs.hiltcoroutines)
+    api(libs.hilt.coroutines)
     api(projects.core.data)
     api(projects.core.model)
     api(projects.core.notifications)

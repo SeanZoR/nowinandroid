@@ -27,8 +27,8 @@ import android.os.Build.VERSION
 import android.os.Build.VERSION_CODES
 import androidx.core.content.getSystemService
 import androidx.tracing.trace
-import com.sean8.hiltcoroutines.Dispatcher
-import com.sean8.hiltcoroutines.AppDispatchers.IO
+import com.sean8.core.hiltcoroutines.Dispatcher
+import com.sean8.core.hiltcoroutines.AppDispatchers.IO
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.channels.awaitClose

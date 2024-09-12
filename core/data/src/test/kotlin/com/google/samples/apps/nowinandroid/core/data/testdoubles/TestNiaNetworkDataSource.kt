@@ -16,11 +16,11 @@
 
 package com.google.samples.apps.nowinandroid.core.data.testdoubles
 
-import com.sean8.hiltcoroutines.NiaNetworkDataSource
+import com.sean8.core.hiltcoroutines.NiaNetworkDataSource
 import com.google.samples.apps.nowinandroid.core.network.demo.DemoNiaNetworkDataSource
-import com.sean8.hiltcoroutines.model.NetworkChangeList
-import com.sean8.hiltcoroutines.model.NetworkNewsResource
-import com.sean8.hiltcoroutines.model.NetworkTopic
+import com.sean8.core.hiltcoroutines.model.NetworkChangeList
+import com.sean8.core.hiltcoroutines.model.NetworkNewsResource
+import com.sean8.core.hiltcoroutines.model.NetworkTopic
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.serialization.json.Json

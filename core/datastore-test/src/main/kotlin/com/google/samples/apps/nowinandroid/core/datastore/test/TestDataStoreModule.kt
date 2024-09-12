@@ -21,7 +21,7 @@ import androidx.datastore.core.DataStoreFactory
 import com.google.samples.apps.nowinandroid.core.datastore.UserPreferences
 import com.google.samples.apps.nowinandroid.core.datastore.UserPreferencesSerializer
 import com.google.samples.apps.nowinandroid.core.datastore.di.DataStoreModule
-import com.sean8.hiltcoroutines.di.ApplicationScope
+import com.sean8.core.hiltcoroutines.di.ApplicationScope
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent
